@@ -4,7 +4,7 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobsOO", "TechJobsOO\TechJobsOO.csproj", "{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechJobTests", "TechJobTests\TechJobTests.csproj", "{5116453B-8D25-4E3C-B2CD-2E2AB41C75B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobsTests", "TechJobTests\TechJobsTests.csproj", "{5116453B-8D25-4E3C-B2CD-2E2AB41C75B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
