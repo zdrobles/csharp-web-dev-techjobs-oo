@@ -74,5 +74,12 @@ namespace TechJobsTests
             Job job = new Job();
             Assert.AreEqual("\nOOPS! This job does not seem to exist.\n", job.ToString());
         }
+
+        [TestMethod]
+        public void TestClassEquality()
+        {
+            Employer acme = new Employer("ACME");
+            Assert.IsTrue(acme.Equals(acme));
+        }
     }
 }

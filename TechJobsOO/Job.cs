@@ -60,8 +60,7 @@ namespace TechJobsOO
                 str += "OOPS! This job does not seem to exist.";
             }
 
-            str += "\n";
-            return str;
+            return str += "\n";
         }
     }
 }
